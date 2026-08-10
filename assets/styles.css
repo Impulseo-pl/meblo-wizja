@@ -331,7 +331,8 @@ p,li,blockquote,dd{text-wrap:pretty}
   transition:transform var(--img-dur) var(--img-ease),filter var(--img-dur) var(--img-ease)}
 .tile:hover{box-shadow:var(--sh-md)}
 .tile .cap{position:absolute;left:0;right:0;bottom:0;padding:var(--space-5) var(--space-4) var(--space-4);
-  background:linear-gradient(transparent,rgba(18,24,28,.78));color:#fff;
+  background:linear-gradient(transparent 28%,rgba(18,24,28,.58) 62%,rgba(18,24,28,.93));color:#fff;
+  text-shadow:0 1px 3px rgba(0,0,0,.6);
   font-size:var(--text-sm);font-weight:600;letter-spacing:.01em;
   opacity:0;transform:translateY(8px);transition:var(--dur) var(--ease)}
 .tile:hover .cap{opacity:1;transform:translateY(0)}
